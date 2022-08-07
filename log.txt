@@ -1,0 +1,10 @@
+Username: Spike, Password: bebop
+	Login successful
+Username: Nujabes, Password: modal
+	Login successful
+Username: Hazama, Password: slothlover123
+	Login successful
+Username: asdf, Password: asdf
+	Login successful
+Username: admin, Password: admin
+	Login successful
