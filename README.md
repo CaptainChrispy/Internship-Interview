@@ -2,12 +2,22 @@
 
 A simple respository of both manual and automated tests against the demoblaze website.
 
-# Requirements
+# Table of Contents
+1. [Requirements](#1-requirements)
+2. [Files](#2-files)
+    1. [auto_login.py](#autologinpy)
+    2. [users.txt](#userstxt)
+    3. [log.txt](#logtxt)
+    4. [chromedriver.exe](#chromedriverexe)
+    5. [DemoBlaze Manual Testing.pdf](#demoblaze-manual-testingpdf)
+2. [Automated Login Usage](#3-automated-login-usage)
+
+# 1. Requirements
  - Python (Works and tested with version 3.10.0)
  - Chrome version 104.0.5112.79
  - The latest version of Selenium (use `pip install selenium` if not present)
 
-# Files
+# 2. Files
 ## auto_login.py
 
 The python script to run for automated testing. 
@@ -36,7 +46,7 @@ This driver is used by Selenium in order to open up a browser and automate the l
 ## DemoBlaze Manual Testing.pdf
 A series of manual tests on the Sign up and Log In flow. These are represented by two tables which specify what was tested and what the result was.
 
-# Automated Login Usage
+# 3. Automated Login Usage
 You can run the auto_login.py script by using `python auto_login.py` in a terminal or by running the script in your favorite Python IDE. **Ensure that all files in this repository are in the same directory before running.**
 
 A demonstration of running this program through the Windows command line is embedded below as a gif.
