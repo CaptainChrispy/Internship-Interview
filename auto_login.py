@@ -11,7 +11,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
 from os.path import exists
 from os import remove
 
@@ -32,7 +31,7 @@ def log_result(result, username, password):
 
 def login(username, password, browser):
     """Logs into an account given a username and password."""
-    # Click the login navigation button
+    # Find and click the login navigation button
     login_button = browser.find_element(By.ID,'login2')
     login_button.click()
 

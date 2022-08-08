@@ -3,7 +3,7 @@
 A simple respository of both manual and automated tests against the demoblaze website.
 
 # Requirements
- - Python 3.10.0
+ - Python (Works and tested with version 3.10.0)
  - Chrome version 104.0.5112.79
  - The latest version of Selenium (use `pip install selenium` if not present)
 
@@ -27,6 +27,8 @@ This file can be altered to include more usernames and passwords. If this file i
 
 ## log.txt
 The file used to store information on login attempts. Every two lines stores basic information, with the first line dedicated to indicating the username and password tested and the second line indicating if the login succeeded or failed.
+
+This file is automatically deleted and created each time auto_login.py is run.
 
 ## chromedriver.exe
 This driver is used by Selenium in order to open up a browser and automate the logins.
