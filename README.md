@@ -5,7 +5,7 @@ A simple respository of both manual and automated tests against the demoblaze we
 # Table of Contents
 1. [Requirements](#1-requirements)
 2. [Files](#2-files)
-    1. [auto_login.py](#autologinpy)
+    1. [auto_login.py](#auto_loginpy)
     2. [users.txt](#userstxt)
     3. [log.txt](#logtxt)
     4. [chromedriver.exe](#chromedriverexe)
